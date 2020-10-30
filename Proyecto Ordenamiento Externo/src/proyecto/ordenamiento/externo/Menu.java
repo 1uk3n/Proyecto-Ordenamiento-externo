@@ -34,8 +34,6 @@ public class Menu{
                     System.out.println("Error: opci\u00f3n no valida...\n");
            }
             }while (opcion < 1 || opcion > n);
-            System.out.println("Hola Mundo!");
-
             return opcion;
             
     }

@@ -32,7 +32,10 @@ public class ProyectoOrdenamientoExterno {
                 opcion = m.menu("Selecciona una opcion:  1)Polifase. \n\t\t\t2)Mezcla equilibrada. \n\t\t\t3)Radix. \n\t\t\t4)Salir.", 4);
                 switch(opcion){
 
-                      
+                        case 1:
+                                System.out.println("\nHas elegido polifase :v");
+                        break;
+
                         case 2:
                                 System.out.println("\nHas elegido mezcla equilibrada :v");
                         break;
@@ -41,10 +44,11 @@ public class ProyectoOrdenamientoExterno {
                                 System.out.println("\nHas elegido radix >:v");
                         break;
 
+                        case 4:
+                             System.out.println("Has elegido el camino de la muerte >:v");
+                             break;
                              
-                        case 5:
-                            System.out.println("Has elegido vivir :)");
-                            break;
+                             
                     
                 }
         }while(opcion != 4);
