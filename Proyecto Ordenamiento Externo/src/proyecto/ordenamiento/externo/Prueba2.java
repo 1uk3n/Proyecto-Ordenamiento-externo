@@ -7,8 +7,11 @@ package proyecto.ordenamiento.externo;
 
 /**
  *
- * @author andy
+ * @author Luis André Rosales López - "The Quetz"
  */
 public class Prueba2 {
+    public void prueba(){
     
+        System.out.println("Esto es una prueba, ves?");
+    }
 }
