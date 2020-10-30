@@ -9,6 +9,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.List;
+import java.io.IOException;
 /**
  *
  * @author Luis André Rosales López
@@ -42,6 +43,11 @@ public class ProyectoOrdenamientoExterno {
 
                         case 3:
                                 System.out.println("\nHas elegido radix >:v");
+                                try{
+                                    radix.radixSort("C:\\Users\\axeln\\Desktop\\Test\\Proyecto-Ordenamiento-externo\\Proyecto Ordenamiento Externo\\src\\proyecto\\ordenamiento\\externo", 1);
+                                }catch(IOException e){
+                                    System.out.println("No pude abrir un archivo");
+                                }
                         break;
 
                         case 4:
