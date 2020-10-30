@@ -47,6 +47,7 @@ public class ProyectoOrdenamientoExterno {
                         case 4:
                              System.out.println("Has elegido el camino de la muerte >:v");
                              break;
+                    
                 }
         }while(opcion != 4);
     }
