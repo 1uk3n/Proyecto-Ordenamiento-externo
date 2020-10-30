@@ -44,9 +44,7 @@ public class ProyectoOrdenamientoExterno {
                                 System.out.println("\nHas elegido radix >:v");
                         break;
 
-                        case 4:
-                                System.out.println("\nGracias, hasta luego! :D");
-                        break;
+                    
                 }
         }while(opcion != 4);
     }
