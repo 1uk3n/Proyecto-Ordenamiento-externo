@@ -1,4 +1,5 @@
 package proyecto.ordenamiento.externo;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -13,7 +14,7 @@ public class Menu{
      * @param opciones: Un string que indica las opciones para acceder a las funciones del programa. (incluyendo "salir").
      * @return opcion: Un entero que almacena la opción elegida por el usuario.
      */
-    public static int menu (String[] opciones) {
+    public static int menu (String[] opciones) throws IOException {
             
             Scanner entrada = new Scanner(System.in);
             int opcion = 0;
@@ -29,7 +30,9 @@ public class Menu{
                 entrada.nextLine();
                 
                 if(opcion < 1 || opcion > opciones.length){
-                    System.out.println("Error: Opción no válida... Intenta nuevamente. \n");
+                    System.out.println("Has elegido el camino de la muerte >:v");
+                    System.out.println("\nPresione una letra para continuar...");
+                    System.in.read();
                 }               
             }
             

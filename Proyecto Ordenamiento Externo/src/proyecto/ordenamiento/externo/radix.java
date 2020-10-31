@@ -25,8 +25,7 @@ public class radix{
             }
         }
 
-        sc.close();
-        
+        sc.close();      
         return n;
     }   
 
