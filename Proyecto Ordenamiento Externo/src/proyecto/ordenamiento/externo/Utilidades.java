@@ -14,13 +14,14 @@ import java.io.File;
 public class Utilidades {
        
     static boolean borrarDirectorio(File directorio) {
-	    File[] contenido = directorio.listFiles();
+	   
+        File[] contenido = directorio.listFiles();
 	    if (contenido != null) {
 	        for (File archivo : contenido) {
 	            borrarDirectorio(archivo);
 	        }
 	    }
-	    return directorio.delete();
+	    return false;
 	}
    
 }
