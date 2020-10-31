@@ -16,20 +16,8 @@ import java.io.IOException;
  */
 public class ProyectoOrdenamientoExterno {
 
-
-    public static void main(String[] args) throws IOException {
-       
-        
+    public static void main(String[] args) throws IOException {      
         Scanner dir = new Scanner(System.in);
-        
-        /*
-        System.out.println("\nIntroduce la ruta del archivo que quieres ordenar: ");
-        String ruta = dir.nextLine();
-        Files file;
-        Path path = Paths.get(ruta);
-       // List<String> alumnos = file.readAllLines(path); //Falta arreglar esta parte.
-        */
-        
         int selector = 0;
         
         while(selector != 4){
@@ -37,11 +25,10 @@ public class ProyectoOrdenamientoExterno {
             switch(selector){
                     
                 case 0->{
-                
                     System.out.println("\n ##### Proyecto - Ordenamiento Externo ##### \n");
                     String[] opciones = {"Polifase", "Mezcla equilibrada", "Radix", "Salir"};
                     selector = Menu.menu(opciones); 
-                    break;
+                    break;                    
                 }
 
                 case 1->{
@@ -56,7 +43,6 @@ public class ProyectoOrdenamientoExterno {
                 case 3->{
                     System.out.println("\n*** Radix Sort ***\n");
                     String[] subOpciones = {"Ordenamiento por nombre", "Ordenamiento por apellido", "Ordenamiento por # de cuenta", "Volver"};
-
                     int subselector = Menu.menu(subOpciones);
 
                     try{
@@ -72,13 +58,7 @@ public class ProyectoOrdenamientoExterno {
                         System.out.println("No pude abrir un archivo");
                     }
                     
-                    
-                    break;
-                    
-                }
-                case 4 ->{
-                     System.out.println("Has elegido el camino de la muerte >:v");
-                     break;
+                    break;                  
                 }
             }
         }
