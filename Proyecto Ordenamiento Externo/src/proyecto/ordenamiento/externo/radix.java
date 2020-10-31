@@ -3,23 +3,31 @@ package proyecto.ordenamiento.externo;
 import java.util.Queue;
 import java.util.LinkedList;
 
+import java.nio.file.Files;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class radix{
 
     public static int maxSize(String path, int ordenamiento) throws IOException{
+       
         int n = 0;
+        
+        System.out.println(path);
+        
         Scanner sc = new Scanner(new File(path)); 
+       
+        
         String rawDatos;
         String[] datos = new String[3];
 
         while(sc.hasNextLine()){
-            // Nombre, apellido, num
-            rawDatos = sc.nextLine();
-            datos = rawDatos.split(",");
+            // Nombre, apellido, num    
+            datos = sc.nextLine().split(",");
 
             if(datos[ordenamiento].length() > n){
                 n = datos[ordenamiento].length();
@@ -31,81 +39,107 @@ public class radix{
         return n;
     }
 
-	public static void radixSort(String path, int ordenamiento) throws IOException{
-        System.out.println(path);
+   public static void radixSort(int ordenamiento) throws IOException{
+             
+        FileWriter writer = null;
+        int recorrerIzq = 1;
+        char caracter;
+        String[] datos = new String[3];
+        int n = 0;
+        String nombreArchivo = "/original.txt";
+       
         //Arreglo de colas a-z + ' ' || 0-9 + ' '
-        Queue[] letras = new Queue[28];
+        Queue[] caracteres = new Queue[28];
         for(int i = 0; i < 28; i++){
-            letras[i] = new LinkedList<String>(); 
+            caracteres[i] = new LinkedList<String>(); 
+        }
+         
+        /*      
+        ##### Prueba de creación de archivos #####    
+        */
+        
+        Path rutaBase = Paths.get(".").normalize().toAbsolutePath();
+        
+        Path directorioBase = Paths.get(rutaBase.toString(), "Archivos ordenamientos");
+       
+        String nombreCarpeta = null;
+        
+        switch(ordenamiento){
+            case 0-> {nombreCarpeta = "Iteraciones (Ord. por Nombre)"; break;}   
+            case 1-> {nombreCarpeta = "Iteraciones (Ord. por Apellido)"; break;} 
+            case 2-> {nombreCarpeta = "Iteraciones (Ord. por # Cuenta)"; break;}
         }
         
         
-        int recorrerIzq = 1;
-        char letra;
-
-        String rawDatos;
-        String[] datos = new String[3];
-
-        String name = (char)92 + "original.txt";
-        int n = 0;
+        File directorioIteraciones = new File(Paths.get(directorioBase.toString(), "Radix", nombreCarpeta).toString());
+        Utilidades.borrarDirectorio(directorioIteraciones);
+        directorioIteraciones.mkdir(); 
+        
+        /*
+        -------------------------------------------------
+        */
+        
 
         try{
-            n = maxSize(path + (char)92 +"original.txt", ordenamiento);
+            n = maxSize(directorioBase.toString() + nombreArchivo, ordenamiento);
         }catch(IOException e){
             System.out.println("No pude abrir el archivo original");
         }
-
+        
         while(n - recorrerIzq > -1){
             
-            Scanner sc = new Scanner(new File(path + name));
-            
+            System.out.println("* Iteración " + recorrerIzq);
+                        
+            Scanner sc = new Scanner(new File(directorioBase.toString() + nombreArchivo));
+                    
             while(sc.hasNextLine()){
-                
+                int cola = 0;
                 // Nombre, apellido, num
-                rawDatos = sc.nextLine();
-                datos = rawDatos.split(",");
+                datos = sc.nextLine().split(",");
 
-                System.out.println("Dato a analizar: " + datos[ordenamiento]);
-                System.out.println("Letra actual: " + (n - recorrerIzq));
 
                 if(n - recorrerIzq < datos[ordenamiento].length()){
                     
                     // a = 97, z = 122,
                     // A = 65, Z = 90
                     // 0 = 48, 9 = 57
-                    letra = datos[ordenamiento].charAt(n - recorrerIzq); 
-                    System.out.println("Ya se puede analizar esta letra y es: " + letra);
-                    
-                    if(letra > 64 && letra < 91){
+                    caracter = datos[ordenamiento].charAt(n - recorrerIzq); 
+                   
+                                
+                    // Determinando a que cola pertenece el elemento actual
+                    if(caracter > 64 && caracter < 91){
                         //Mayuscula
-                        letras[(int)letra - 64].add(rawDatos);
-                    
-                    }else if(letra > 96 && letra < 123){
+                        cola = (int)caracter - 64;
+                       
+                    }else if(caracter > 96 && caracter < 123){
                         //Minuscula
-                        letras[(int)letra - 96].add(rawDatos);
-                    }else if (letra > 47 && letra < 58){
+                        cola = (int)caracter - 96;
+                        
+                    }else if (caracter > 47 && caracter < 58){
                         //Numero
-                        letras[(int) letra - 47].add(rawDatos);
-                    }else{
-                        // ' '
-                        System.out.println("Se toma como espacio");
-                        letras[0].add(rawDatos);
-                    }
-                }else{
-                    // ' '
-                    System.out.println("Se toma como espacio");
-                    letras[0].add(rawDatos);
+                        cola =(int)caracter - 47;
+                        
+                    }   
                 }
+                
+                caracteres[cola].add(datos[0] + "," + datos[1] + ","+ datos[2]);
+                    
             }    
-
-            name = (char)92 +"iteracion " + recorrerIzq + ".txt"; 
-            FileWriter writer = new FileWriter(path + name);
-
+              
+           
+            
+            directorioBase = directorioIteraciones.toPath();
+            nombreArchivo = "/iteracion " + recorrerIzq + ".txt"; 
+            
+       
+            writer = new FileWriter(directorioIteraciones.toString() + nombreArchivo);
+            
             for(int i = 0; i < 28; i ++){
 
-                while(letras[i].isEmpty() != true){
+                while(caracteres[i].isEmpty() != true){
                     //prints (estado despues de iterar)
-                    writer.write(letras[i].poll() + "\n");
+                    System.out.println(caracteres[i].peek());
+                    writer.write(caracteres[i].poll() + "\n");
                 }
             }
 
@@ -114,4 +148,7 @@ public class radix{
             recorrerIzq ++;
         }   
     }
+
+
+
 }

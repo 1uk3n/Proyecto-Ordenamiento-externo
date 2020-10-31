@@ -16,48 +16,60 @@ import java.io.IOException;
  */
 public class ProyectoOrdenamientoExterno {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-           Scanner dir = new Scanner(System.in);
+       
+        
+        Scanner dir = new Scanner(System.in);
+        
+        /*
         System.out.println("\nIntroduce la ruta del archivo que quieres ordenar: ");
         String ruta = dir.nextLine();
         Files file;
         Path path = Paths.get(ruta);
        // List<String> alumnos = file.readAllLines(path); //Falta arreglar esta parte.
-        Menu m = new Menu();
-        int opcion = 0;
-        do{
-                System.out.println("\n    ====== BIENVENIDO ====== \n");
-                opcion = m.menu("Selecciona una opcion:  1)Polifase. \n\t\t\t2)Mezcla equilibrada. \n\t\t\t3)Radix. \n\t\t\t4)Salir.", 4);
-                switch(opcion){
+        */
+        
+        int selector = 0;
+        
+        while(selector != 4){
+            
+             
+            System.out.println("\n ##### Proyecto - Ordenamiento Externo ##### \n");       
+            String[] opciones = {"Polifase", "Mezcla equilibrada", "Radix", "Salir"};
+            
+            selector = Menu.menu(opciones);
 
-                        case 1:
-                                System.out.println("\nHas elegido polifase :v");
-                        break;
+            System.out.println(selector);
 
-                        case 2:
-                                System.out.println("\nHas elegido mezcla equilibrada :v");
-                        break;
+            switch(selector){
 
-                        case 3:
-                                System.out.println("\nHas elegido radix >:v");
-                                try{
-                                    radix.radixSort("C:\\Users\\axeln\\Desktop\\Test\\Proyecto-Ordenamiento-externo\\Proyecto Ordenamiento Externo\\src\\proyecto\\ordenamiento\\externo", 1);
-                                }catch(IOException e){
-                                    System.out.println("No pude abrir un archivo");
-                                }
-                        break;
+                    case 1:
+                            System.out.println("\nHas elegido polifase :v");
+                    break;
 
-                        case 4:
-                             System.out.println("Has elegido el camino de la muerte >:v");
-                             break;
-                             
-                             
-                    
-                }
-        }while(opcion != 4);
+                    case 2:
+                            System.out.println("\nHas elegido mezcla equilibrada :v");
+                    break;
+
+                    case 3:
+                        
+                        
+                            System.out.println("\nHas elegido radix >:v");
+                            try{
+                                radix.radixSort(0);
+                            }catch(IOException e){
+                                System.out.println("No pude abrir un archivo");
+                            }
+                    break;
+
+                    case 4:
+                         System.out.println("Has elegido el camino de la muerte >:v");
+                         break;
+
+
+
+            }
+        }
     }
-    
 }
