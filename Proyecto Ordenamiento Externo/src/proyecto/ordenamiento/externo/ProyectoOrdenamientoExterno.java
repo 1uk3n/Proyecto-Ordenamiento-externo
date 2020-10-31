@@ -53,11 +53,17 @@ public class ProyectoOrdenamientoExterno {
                     break;
 
                     case 3:
-                        
-                        
+                            
+                            System.out.println("*** Radix Sort ***");
+                            String[] subOpciones = {"Ordenamiento por nombre", "Ordenamiento por apellido", "Ordenamiento por # de cuenta"};
+                            int subselector = Menu.menu(opciones);
+                           
+                           
                             System.out.println("\nHas elegido radix >:v");
                             try{
                                 radix.radixSort(0);
+                                radix.radixSort(1);
+                                radix.radixSort(2);
                             }catch(IOException e){
                                 System.out.println("No pude abrir un archivo");
                             }

@@ -1,9 +1,6 @@
 package proyecto.ordenamiento.externo;
-
 import java.util.Queue;
 import java.util.LinkedList;
-
-import java.nio.file.Files;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,14 +12,8 @@ public class radix{
 
     public static int maxSize(String path, int ordenamiento) throws IOException{
        
-        int n = 0;
-        
-        System.out.println(path);
-        
-        Scanner sc = new Scanner(new File(path)); 
-       
-        
-        String rawDatos;
+        int n = 0;        
+        Scanner sc = new Scanner(new File(path));         
         String[] datos = new String[3];
 
         while(sc.hasNextLine()){
@@ -37,7 +28,7 @@ public class radix{
         sc.close();
         
         return n;
-    }
+    }   
 
    public static void radixSort(int ordenamiento) throws IOException{
              
@@ -46,6 +37,7 @@ public class radix{
         char caracter;
         String[] datos = new String[3];
         int n = 0;
+        
         String nombreArchivo = "/original.txt";
        
         //Arreglo de colas a-z + ' ' || 0-9 + ' '
@@ -70,8 +62,13 @@ public class radix{
             case 2-> {nombreCarpeta = "Iteraciones (Ord. por # Cuenta)"; break;}
         }
         
+        File directorioRadix = new File(Paths.get(directorioBase.toString(), "Radix").toString());
         
-        File directorioIteraciones = new File(Paths.get(directorioBase.toString(), "Radix", nombreCarpeta).toString());
+        if(!directorioRadix.exists()){
+            directorioRadix.mkdir();
+        }
+        
+        File directorioIteraciones = new File(Paths.get(directorioRadix.toString(), nombreCarpeta).toString());
         Utilidades.borrarDirectorio(directorioIteraciones);
         directorioIteraciones.mkdir(); 
         
@@ -106,7 +103,7 @@ public class radix{
                     caracter = datos[ordenamiento].charAt(n - recorrerIzq); 
                    
                                 
-                    // Determinando a que cola pertenece el elemento actual
+                    // Determinando a que cola pertenece el elemento actual 
                     if(caracter > 64 && caracter < 91){
                         //Mayuscula
                         cola = (int)caracter - 64;
@@ -129,10 +126,12 @@ public class radix{
            
             
             directorioBase = directorioIteraciones.toPath();
+            
+            
             nombreArchivo = "/iteracion " + recorrerIzq + ".txt"; 
             
        
-            writer = new FileWriter(directorioIteraciones.toString() + nombreArchivo);
+            writer = new FileWriter(new File(directorioIteraciones.toString() + nombreArchivo));
             
             for(int i = 0; i < 28; i ++){
 
