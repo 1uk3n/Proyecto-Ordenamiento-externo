@@ -13,7 +13,7 @@ import java.io.File;
  */
 public class Utilidades {
        
-    static void borrarDirectorio(File directorio) {
+    static void borrarDirectorioRecursivamente(File directorio) {
 	   
         File[] contenido = directorio.listFiles();
 	if (contenido != null) {
