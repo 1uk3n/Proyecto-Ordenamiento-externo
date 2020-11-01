@@ -4,14 +4,16 @@
  * and open the template in the editor.
  */
 package proyecto.ordenamiento.externo;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
+import java.util.List;
 import java.io.IOException;
 /**
  *
  * @author Luis André Rosales López
  */
-
-
 public class ProyectoOrdenamientoExterno {
 
     public static void main(String[] args) throws IOException {      
@@ -31,8 +33,6 @@ public class ProyectoOrdenamientoExterno {
 
                 case 1->{
                     System.out.println("\nHas elegido polifase :v");
-                    Polifase.polifase(4, 1);
-                    selector = 4;
                     break;
                 }
                 
@@ -44,13 +44,12 @@ public class ProyectoOrdenamientoExterno {
                     System.out.println("\n*** Radix Sort ***\n");
                     String[] subOpciones = {"Ordenamiento por nombre", "Ordenamiento por apellido", "Ordenamiento por # de cuenta", "Volver"};
                     int subselector = Menu.menu(subOpciones);
-                    
+
                     try{
-                        
                         switch(subselector){
-                            case 1 ->{Radix.radixSort(0); break;}
-                            case 2 ->{Radix.radixSort(1); break;}
-                            case 3 ->{Radix.radixSort(2); break;}
+                            case 1 ->{radix.radixSort(0); break;}
+                            case 2 ->{radix.radixSort(1); break;}
+                            case 3 ->{radix.radixSort(2); break;}
                             case 4 ->{selector = 0; break;}
 
                         }
