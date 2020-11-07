@@ -25,8 +25,7 @@ public class radix{
             }
         }
 
-        sc.close();
-        
+        sc.close();      
         return n;
     }   
 
@@ -54,7 +53,7 @@ public class radix{
         
         Path directorioBase = Paths.get(rutaBase.toString(), "Archivos ordenamientos");
        
-        String nombreCarpeta = null;
+        String nombreCarpeta = "";
         
         switch(ordenamiento){
             case 0-> {nombreCarpeta = "Iteraciones (Ord. por Nombre)"; break;}   
@@ -69,14 +68,14 @@ public class radix{
         }
         
         File directorioIteraciones = new File(Paths.get(directorioRadix.toString(), nombreCarpeta).toString());
-        Utilidades.borrarDirectorio(directorioIteraciones);
+            Utilidades.borrarDirectorio(directorioIteraciones);
         directorioIteraciones.mkdir(); 
         
         /*
         -------------------------------------------------
         */
         
-
+        System.out.println(directorioBase.toString() + nombreArchivo);
         try{
             n = maxSize(directorioBase.toString() + nombreArchivo, ordenamiento);
         }catch(IOException e){
@@ -125,14 +124,19 @@ public class radix{
               
            
             
-            directorioBase = directorioIteraciones.toPath();
+            directorioBase = directorioIteraciones.toPath();      
             
-            
-            nombreArchivo = File.pathSeparatorChar + "iteracion " + recorrerIzq + ".txt"; 
-            
-       
-            writer = new FileWriter(new File(directorioIteraciones.toString() + nombreArchivo));
-            
+            if(n - recorrerIzq == 0){
+                nombreArchivo =  File.separatorChar + "Radix Terminado  - " + nombreCarpeta.substring(11) +  ".txt"; 
+                File archivoFinal = new File(directorioRadix.toString() + nombreArchivo);
+               
+                Utilidades.borrarDirectorio(archivoFinal);
+                writer = new FileWriter(archivoFinal);
+            }else{
+                nombreArchivo =  File.separatorChar + "iteracion " + recorrerIzq + ".txt"; 
+                writer = new FileWriter(new File(directorioIteraciones.toString() + nombreArchivo));
+            }
+                
             for(int i = 0; i < 28; i ++){
 
                 while(caracteres[i].isEmpty() != true){
@@ -146,7 +150,11 @@ public class radix{
             sc.close();
             recorrerIzq ++;
         }   
-    }
+    
+    System.out.println("\nPresione una letra para continuar...");
+    System.in.read();
+   
+   }
 
 
 
