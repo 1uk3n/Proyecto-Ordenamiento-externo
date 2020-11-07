@@ -38,7 +38,7 @@ public class radix{
         String[] datos = new String[3];
         int n = 0;
         
-        String nombreArchivo = "/original.txt";
+        String nombreArchivo = File.separatorChar + "original.txt";
        
         //Arreglo de colas a-z + ' ' || 0-9 + ' '
         Queue[] caracteres = new Queue[28];
@@ -128,7 +128,7 @@ public class radix{
             directorioBase = directorioIteraciones.toPath();
             
             
-            nombreArchivo = "/iteracion " + recorrerIzq + ".txt"; 
+            nombreArchivo = File.pathSeparatorChar + "iteracion " + recorrerIzq + ".txt"; 
             
        
             writer = new FileWriter(new File(directorioIteraciones.toString() + nombreArchivo));
