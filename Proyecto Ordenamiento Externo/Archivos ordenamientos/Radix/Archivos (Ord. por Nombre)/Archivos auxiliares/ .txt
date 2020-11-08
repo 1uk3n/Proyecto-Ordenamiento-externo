@@ -1,0 +1,59 @@
+
+Iteración 1
+Zuriel,Zarate Garcia,323214223
+Luis,Rosales Lopez,321324124
+Luis Axel,Nuñez Quintana,321324341
+Juan,Perez Gomez,303030
+Jose,Mendez Rodriguez,987652 
+
+Iteración 2
+Zuriel,Zarate Garcia,323214223
+Luis,Rosales Lopez,321324124
+Luis Axel,Nuñez Quintana,321324341
+Juan,Perez Gomez,303030
+Jose,Mendez Rodriguez,987652 
+
+Iteración 3
+Zuriel,Zarate Garcia,323214223
+Luis,Rosales Lopez,321324124
+Luis Axel,Nuñez Quintana,321324341
+Juan,Perez Gomez,303030
+Jose,Mendez Rodriguez,987652 
+
+Iteración 4
+Zuriel,Zarate Garcia,323214223
+Luis,Rosales Lopez,321324124
+Juan,Perez Gomez,303030
+Jose,Mendez Rodriguez,987652 
+
+Iteración 5
+Zuriel,Zarate Garcia,323214223
+Luis,Rosales Lopez,321324124
+Juan,Perez Gomez,303030
+Jose,Mendez Rodriguez,987652 
+
+Iteración 6
+Zuriel,Zarate Garcia,323214223
+Luis,Rosales Lopez,321324124
+Juan,Perez Gomez,303030
+Jose,Mendez Rodriguez,987652 
+
+Iteración 7
+Luis,Rosales Lopez,321324124
+Juan,Perez Gomez,303030
+Jose,Mendez Rodriguez,987652 
+
+Iteración 8
+Luis,Rosales Lopez,321324124
+Juan,Perez Gomez,303030
+Jose,Mendez Rodriguez,987652 
+Luis Alberto,Gomez Lopez,123456
+Luis Axel,Nuñez Quintana,321324341
+
+Iteración 9
+
+Iteración 10
+
+Iteración 11
+
+Iteración 12

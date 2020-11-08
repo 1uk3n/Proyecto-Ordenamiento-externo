@@ -1,7 +1,0 @@
-Juan, Perez Gomez, 303030
-Luis, Rosales Lopez, 321324124
-Luis Axel, Nuñez Quintana, 321324341
-Luis Axel, Nunez Quintana, 321324341
-Zuriel, Zarate Garcia, 323214223
-Luis Alberto, Gomez Lopez, 123456
-Jose, Mendez Rodriguez, 987652 
