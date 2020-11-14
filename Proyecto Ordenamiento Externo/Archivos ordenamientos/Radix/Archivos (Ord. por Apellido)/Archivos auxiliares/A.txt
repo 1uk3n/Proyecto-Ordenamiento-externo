@@ -1,39 +1,23 @@
-
 Iteración 1
-
 Iteración 2
-
 Iteración 3
 Luis Axel,Nuñez Quintana,321324341
-
 Iteración 4
 Zuriel,Zarate Garcia,323214223
-
 Iteración 5
 Luis Axel,Nuñez Quintana,321324341
-
 Iteración 6
-
 Iteración 7
-
 Iteración 8
 Zuriel,Zarate Garcia,323214223
-
 Iteración 9
-
 Iteración 10
-
 Iteración 11
-
 Iteración 12
-
 Iteración 13
 Luis,Rosales Lopez,321324124
 Zuriel,Zarate Garcia,323214223
-
 Iteración 14
-
 Iteración 15
 Zuriel,Zarate Garcia,323214223
-
 Iteración 16

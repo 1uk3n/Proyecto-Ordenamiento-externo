@@ -1,6 +1,6 @@
-Zuriel,Zarate Garcia,4
-Luis,Rosales Lopez,3
-Luis Axel,Nuñez Quintana,4
-Juan,Perez Gomez,3
-Luis Alberto,Gomez Lopez,1
-Jose,Mendez Rodriguez,3 
+Zuriel,Zarate Garcia,323214223
+Luis,Rosales Lopez,321324124
+Luis Axel,Nuñez Quintana,321324341
+Juan,Perez Gomez,303030
+Luis Alberto,Gomez Lopez,123456
+Jose,Mendez Rodriguez,987652 
