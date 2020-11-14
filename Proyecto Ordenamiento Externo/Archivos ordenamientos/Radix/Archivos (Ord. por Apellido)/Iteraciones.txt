@@ -3,115 +3,131 @@ Luis,Rosales Lopez,321324124
 Luis Axel,Nuñez Quintana,321324341
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
+
 Iteración 1
 Zuriel,Zarate Garcia,323214223
 Luis,Rosales Lopez,321324124
 Luis Axel,Nuñez Quintana,321324341
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
+
 Iteración 2
 Zuriel,Zarate Garcia,323214223
 Luis,Rosales Lopez,321324124
 Luis Axel,Nuñez Quintana,321324341
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
+
 Iteración 3
 Zuriel,Zarate Garcia,323214223
 Luis,Rosales Lopez,321324124
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis Axel,Nuñez Quintana,321324341
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
+
 Iteración 4
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Zuriel,Zarate Garcia,323214223
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Luis Axel,Nuñez Quintana,321324341
 Luis,Rosales Lopez,321324124
+
 Iteración 5
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis Axel,Nuñez Quintana,321324341
 Luis,Rosales Lopez,321324124
 Zuriel,Zarate Garcia,323214223
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
+
 Iteración 6
 Zuriel,Zarate Garcia,323214223
 Luis,Rosales Lopez,321324124
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Luis Axel,Nuñez Quintana,321324341
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
+
 Iteración 7
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis Axel,Nuñez Quintana,321324341
 Luis,Rosales Lopez,321324124
 Zuriel,Zarate Garcia,323214223
+
 Iteración 8
 Zuriel,Zarate Garcia,323214223
 Luis Axel,Nuñez Quintana,321324341
 Luis,Rosales Lopez,321324124
 Juan,Perez Gomez,303030
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Luis Alberto,Gomez Lopez,123456
+
 Iteración 9
 Luis,Rosales Lopez,321324124
 Zuriel,Zarate Garcia,323214223
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Luis Axel,Nuñez Quintana,321324341
+
 Iteración 10
 Zuriel,Zarate Garcia,323214223
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis Axel,Nuñez Quintana,321324341
 Luis,Rosales Lopez,321324124
+
 Iteración 11
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis Axel,Nuñez Quintana,321324341
 Zuriel,Zarate Garcia,323214223
 Luis,Rosales Lopez,321324124
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
+
 Iteración 12
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Luis,Rosales Lopez,321324124
 Zuriel,Zarate Garcia,323214223
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis Axel,Nuñez Quintana,321324341
+
 Iteración 13
 Luis,Rosales Lopez,321324124
 Zuriel,Zarate Garcia,323214223
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis Axel,Nuñez Quintana,321324341
+
 Iteración 14
 Luis Axel,Nuñez Quintana,321324341
 Luis Alberto,Gomez Lopez,123456
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Zuriel,Zarate Garcia,323214223
 Juan,Perez Gomez,303030
 Luis,Rosales Lopez,321324124
+
 Iteración 15
 Zuriel,Zarate Garcia,323214223
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis,Rosales Lopez,321324124
 Luis Axel,Nuñez Quintana,321324341
+
 Iteración 16
 Luis Alberto,Gomez Lopez,123456
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Luis Axel,Nuñez Quintana,321324341
 Juan,Perez Gomez,303030
 Luis,Rosales Lopez,321324124

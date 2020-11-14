@@ -43,9 +43,9 @@ public class radix{
         String nombreCarpeta = "";
         
         switch(ordenamiento){
-            case 0-> {nombreCarpeta = "Archivos (Ord. por Nombre)"; break;}   
-            case 1-> {nombreCarpeta = "Archivos (Ord. por Apellido)"; break;} 
-            case 2-> {nombreCarpeta = "Archivos (Ord. por # Cuenta)"; break;}
+            case 0: {nombreCarpeta = "Archivos (Ord. por Nombre)"; break;}   
+            case 1: {nombreCarpeta = "Archivos (Ord. por Apellido)"; break;} 
+            case 2: {nombreCarpeta = "Archivos (Ord. por # Cuenta)"; break;}
         }
         
         //inicializarDir crea las carpetas iniciales y el archivo iteraciones.txt

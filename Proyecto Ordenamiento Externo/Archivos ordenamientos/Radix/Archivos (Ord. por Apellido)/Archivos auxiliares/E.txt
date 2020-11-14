@@ -1,28 +1,44 @@
+
 Iteración 1
+
 Iteración 2
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
+
 Iteración 3
+
 Iteración 4
+
 Iteración 5
 Luis,Rosales Lopez,321324124
+
 Iteración 6
+
 Iteración 7
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
+
 Iteración 8
+
 Iteración 9
+
 Iteración 10
+
 Iteración 11
 Zuriel,Zarate Garcia,323214223
 Luis,Rosales Lopez,321324124
+
 Iteración 12
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
+
 Iteración 13
 Juan,Perez Gomez,303030
 Luis Alberto,Gomez Lopez,123456
 Luis Axel,Nuñez Quintana,321324341
+
 Iteración 14
+
 Iteración 15
-Jose,Mendez Rodriguez,987652 
+Jose,Nendez Rodriguez,987652 
 Juan,Perez Gomez,303030
+
 Iteración 16
