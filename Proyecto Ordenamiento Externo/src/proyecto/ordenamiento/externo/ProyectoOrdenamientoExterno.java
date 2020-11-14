@@ -4,11 +4,7 @@
  * and open the template in the editor.
  */
 package proyecto.ordenamiento.externo;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Scanner;
-import java.util.List;
 import java.io.IOException;
 /**
  *
