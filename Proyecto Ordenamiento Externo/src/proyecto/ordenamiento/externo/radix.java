@@ -6,8 +6,23 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
-public class radix{
+/**
+ * Clase Radix, no modela ningún tipo de dato abstracto.
+ * Contiene los métodos para realizar el ordenamiento por medio de archivos auxiliares
+ * @author Nuñez Quintana, Luis Axel
+ * @author Zarate Garia, Zuriel
+ * @author Rosales Lopez, Luis André
+ */
 
+public class radix{
+    /**
+     * Método para conocer la cadena de caracteres de mayor longitud de la categoria de datos a
+     * ordenar
+     *
+     * @param path Dirección absoluta de la copia del archivo a ordenar
+     * @param ordenamiento Tipo de ordenamiento a realizar (0.Nombre,1.Apellidos,2.Número de Cuenta)
+     * @return El tamaño de la cadena más grande de la categoria de datos a ordenar
+     */  
     public static int maxSize(String path, int ordenamiento) throws IOException{
        
         int n = 0;        
@@ -26,8 +41,14 @@ public class radix{
         sc.close();      
         return n;
     }   
-
-   public static void radixSort(int ordenamiento) throws IOException{
+    
+    /**
+     * Método para realizar el ordenamiento radix, utiliza archivos auxiliares
+     * y almacena todas las iteraciones y estados de los archivos utilizados
+     *
+     * @param ordenamiento Tipo de ordenamiento a realizar (0.Nombre,1.Apellidos,2.Número de Cuenta)
+     */  
+    public static void radixSort(int ordenamiento) throws IOException{
              
         FileWriter writer = null;
         int recorrerIzq = 1;
