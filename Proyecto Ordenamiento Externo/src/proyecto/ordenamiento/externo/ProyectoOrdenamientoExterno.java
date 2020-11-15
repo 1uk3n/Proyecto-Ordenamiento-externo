@@ -29,6 +29,8 @@ public class ProyectoOrdenamientoExterno {
 
                 case 1->{
                     System.out.println("\nHas elegido polifase :v");
+                    Polifase.polifase(4, 1);
+                    selector = 0;
                     break;
                 }
                 
@@ -43,9 +45,9 @@ public class ProyectoOrdenamientoExterno {
 
                     try{
                         switch(subselector){
-                            case 1 ->{radix.radixSort(0); break;}
-                            case 2 ->{radix.radixSort(1); break;}
-                            case 3 ->{radix.radixSort(2); break;}
+                            case 1 ->{Radix.radixSort(0); break;}
+                            case 2 ->{Radix.radixSort(1); break;}
+                            case 3 ->{Radix.radixSort(2); break;}
                             case 4 ->{selector = 0; break;}
 
                         }

@@ -203,7 +203,10 @@ public class MezclaE{
         return listaC;
 
     }
-
+    
+    
+    
+    
     public LinkedList<String> mezclaEquilibrada(LinkedList<String> alumnos, int ordenamiento, int i){
         LinkedList<String> lista = new LinkedList<String>();
         System.out.println("Lista a ordenar: ");
