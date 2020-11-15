@@ -54,7 +54,7 @@ public class Polifase {
         }
        
         File directorioIteraciones = new File(Paths.get(directorioPolifase.toString(), nombreCarpeta).toString()); 
-        Utilidades.borrarDirectorioRecursivamente(directorioIteraciones);
+        Utilidades.borrarDirectorio(directorioIteraciones);
         directorioIteraciones.mkdir(); 
         
         File archivo = new File(directorioBase.toString() + archivoActual);
