@@ -1,0 +1,30 @@
+
+Iteración 1
+Zuriel,Zarate Garcia,323214223
+
+Iteración 2
+
+Iteración 3
+Luis Axel,Nuñez Quintana,321324341
+
+Iteración 4
+
+Iteración 5
+Juan,Perez Gomez,303030
+
+Iteración 6
+Luis,Rosales Lopez,321324124
+Luis Axel,Nuñez Quintana,321324341
+
+Iteración 7
+Juan,Perez Gomez,303030
+Zuriel,Zarate Garcia,323214223
+Luis Alberto,Gomez Lopez,123456
+
+Iteración 8
+
+Iteración 9
+Juan,Perez Gomez,303030
+Luis,Rosales Lopez,321324124
+Luis Axel,Nuñez Quintana,321324341
+Zuriel,Zarate Garcia,323214223

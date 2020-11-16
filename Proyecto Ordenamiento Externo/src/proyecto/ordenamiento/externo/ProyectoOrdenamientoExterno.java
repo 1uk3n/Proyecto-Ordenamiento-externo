@@ -32,7 +32,7 @@ public class ProyectoOrdenamientoExterno {
                 case 1->{
                     System.out.println("\nHas elegido polifase :v");
                     Polifase.polifase(4, 1);
-                    selector = 4;
+                    selector = 0;
                     break;
                 }
                 

@@ -1,0 +1,42 @@
+
+Iteración 1
+
+Iteración 2
+
+Iteración 3
+
+Iteración 4
+
+Iteración 5
+
+Iteración 6
+
+Iteración 7
+
+Iteración 8
+
+Iteración 9
+
+Iteración 10
+
+Iteración 11
+Juan,Perez Gomez,303030
+Juan,Perez Gomez,303030
+Juan,Perez Gomez,303030
+Luis,Rosales Lopez,321324124
+Luis,Rosales Lopez,321324124
+Luis,Rosales Lopez,321324124
+Luis,Rosales Lopez,321324124
+Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
+Luis Axel,Nuñez Quintana,321324341
+Luis Axel,Nuñez Quintana,321324341
+Luis Axel,Nuñez Quintana,321324341
+Luis Axel,Nuñez Quintana,321324341
+Zuriel,Zarate Garcia,323214223
+Zuriel,Zarate Garcia,323214223
+Zuriel,Zarate Garcia,323214223
+Zuriel,Zarate Garcia,323214223
+
+Iteración 12
