@@ -37,7 +37,35 @@ public class ProyectoOrdenamientoExterno {
                 }
                 
                 case 2->{
-                    System.out.println("\nHas elegido mezcla equilibrada :v");
+                    System.out.println("\n=*=*=*= Mezcla Equilibrada =*=*=*=\n");
+                    String[] subOpciones = {"Ordenamiento por nombre", "Ordenamiento por apellido", "Ordenamiento por # de cuenta", "Volver"};
+                    int subselector = Menu.menu(subOpciones);
+
+                    try {
+
+                        switch (subselector) {
+                            case 1: {
+                                System.out.println("Puede encontrar el archivo con la lista ordenada en: \n" + MezclaE.mezclaEquilibrada(0));
+                                break;
+                            }
+                            case 2: {
+                                System.out.println("Puede encontrar el archivo con la lista ordenada en: \n" + MezclaE.mezclaEquilibrada(1));
+                                break;
+                            }
+                            case 3: {
+                                System.out.println("Puede encontrar el archivo con la lista ordenada en: \n" + MezclaE.mezclaEquilibrada(2));
+                                break;
+                            }
+                            case 4: {
+                                selector = 0;
+                                break;
+                            }
+
+                        }
+
+                    } catch (IOException e) {
+                        System.out.println("No pude abrir un archivo");
+                    }
                     break;
                 }
                 case 3->{

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package proyecto.ordenamiento.externo;
 
 import java.io.File;
@@ -11,14 +6,21 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Scanner;
-
 /**
- *
- * @author andy
+ * Clase Utilidades, no modela ningún tipo de dato abstracto en específico.
+ * Es solo un compendio de utilerias varias usadas a lo largo del proyecto.
+ * @author Nuñez Quintana, Luis Axel
+ * @author Zarate Garia, Zuriel
+ * @author Rosales Lopez, Luis André
  */
+
 public class Utilidades {
-       
-    static void borrarDirectorioRecursivamente(File directorio) {
+    /**
+     * Método para eliminar todos los archivos de un directorio
+     *
+     * @param directorio Directorio a vaciar
+     */  
+    static void borrarDirectorio(File directorio) {
 	   
         File[] contenido = directorio.listFiles();
 	if (contenido != null) {
@@ -29,6 +31,15 @@ public class Utilidades {
 	
     }
     
+    /**
+     * Método para crear una copia de un archivo
+     *
+     * @param rutaBase Dirección absoluta del archivo original
+     * @param rutaDestino Dirección absoluta en donde se almacenará la copia
+     * @param nombreArchivoViejo Nombre y extensión del archivo original
+     * @param nombreArchivoNuevo Nombre y extensión de la copia a crear
+     * @return La copia creada
+     */  
     static File copiarArchivo(Path rutaBase, Path rutaDestino, String nombreArchivoViejo, String nombreArchivoNuevo) throws IOException {
         
         //Archivo copia.txt
@@ -46,6 +57,14 @@ public class Utilidades {
         return copia;
     }
     
+    /**
+     * Método para crear o revisar el estado de los directorios de ordenamiento y tipo de ordenamiento e inicialización de Iteraciones.txt
+     *
+     * @param rutaBase Dirección absoluta del archivo original
+     * @param ordenamiento Ordenamiento a utilizar (Radix, Polifase, MezclaEquilibrada)
+     * @param tipoOrd Tipo de ordenamiento a utilizar   (ord por Nombre, Apellido, numCuenta)
+     * @return La copia creada localizada en el directorio ordenamiento/tipoDeOrd/
+     */ 
     static File inicializarDir(Path rutaBase, String ordenamiento, String tipoDeOrd) {
 	//Variable para crear el directorio Radix,polifase,mezcla o conocer el estado de dicho directorio
         File directorioAux = new File(Paths.get(rutaBase.toString(), ordenamiento).toString());
