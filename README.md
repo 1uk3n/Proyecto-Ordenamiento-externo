@@ -52,14 +52,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre el proyecto
-  Este proyecto tiene como objetivo implementar y analizar el uso de las diferentes colecciones disponibles en Java. El programa simula un sistema escolar de inscripciones. 
+  Este proyecto tiene como objetivo implementar y analizar los algoritmos de ordenamiento externo "Polifase", "Mezcla Equilibrada" y "Radix Sort". El sistema simula (y en el caso de Radix implementa) el uso de archivos para las distintas fases de cada uno de los algoritmos descritos anteriormente. 
  
 
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-Para información detallada respecto al uso de este programa visita nuestro <a href="https://github.com/TheQuetz/Proyecto-Colecciones-en-Java/wiki">Manual de usuario</a>. En él se detalla como ejecutarlo, así como una guía general de uso.
-
+En el siguiente video encontrarás una guía de como utilizar este programa:
+[![Alt text](https://img.youtube.com/vi/TJDrWegDhSA/0.jpg)](https://www.youtube.com/watch?v=TJDrWegDhSA)
 Para detalles sobre las clases que integran este proyecto visita nuetra <a href="https://thequetz.github.io/Proyecto-Ordenamiento-externo/">Documentación</a>.
 
 <!-- CONTACT -->
@@ -67,23 +67,23 @@ Para detalles sobre las clases que integran este proyecto visita nuetra <a href=
 
 Axel Nuñez [LuisAxel] - axelnunez5@gmail.com
 <br />
-Zuriel Zárate [mtzosiriso] - osiris_olmos@hotmail.com
+Zuriel Zárate [DeLionsGate] - zarategrupo137a@gmail.com
 <br />
 Luis Rosales [TheQuetz] - theQuetz@protonmail.com
 <br />
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/TheQuetz/Proyecto-Colecciones-en-Java.svg?style=flat-square
-[contributors-url]: https://github.com/TheQuetz/Proyecto-Colecciones-en-Java/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/TheQuetz/Proyecto-Colecciones-en-Java.svg?style=flat-square
-[forks-url]: https://github.com/TheQuetz/Proyecto-Colecciones-en-Java/network/members
-[stars-shield]: https://img.shields.io/github/stars/TheQuetz/Proyecto-Colecciones-en-Java.svg?style=flat-square
-[stars-url]: https://github.com/TheQuetz/Proyecto-Colecciones-en-Java/stargazers
-[issues-shield]: https://img.shields.io/github/issues/TheQuetz/Proyecto-Colecciones-en-Java.svg?style=flat-square
-[issues-url]: https://github.com/TheQuetz/Proyecto-Colecciones-en-Java/issues
-[license-shield]: https://img.shields.io/github/license/TheQuetz/Proyecto-Colecciones-en-Java.svg?style=flat-square
-[license-url]: https://github.com/TheQuetz/Proyecto-Colecciones-en-Java/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/TheQuetz/Proyecto-Ordenamiento-externo.svg?style=flat-square
+[contributors-url]: https://github.com/TheQuetz/Proyecto-Ordenamiento-externo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TheQuetz/Proyecto-Ordenamiento-externo.svg?style=flat-square
+[forks-url]: https://github.com/TheQuetz/Proyecto-Ordenamiento-externo/network/members
+[stars-shield]: https://img.shields.io/github/stars/TheQuetz/PProyecto-Ordenamiento-externo.svg?style=flat-square
+[stars-url]: https://github.com/TheQuetz/Proyecto-Ordenamiento-externo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TheQuetz/Proyecto-Ordenamiento-externo.svg?style=flat-square
+[issues-url]: https://github.com/TheQuetz/Proyecto-Ordenamiento-externo/issues
+[license-shield]: https://img.shields.io/github/license/TheQuetz/Proyecto-Ordenamiento-externo.svg?style=flat-square
+[license-url]: https://github.com/TheQuetz/Proyecto-Ordenamiento-externo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/TheQuetz
 [product-screenshot]: images/screenshot.png
