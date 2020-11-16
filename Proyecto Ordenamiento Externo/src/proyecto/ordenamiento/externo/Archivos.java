@@ -1,7 +1,3 @@
-/**
- * Contiene métodos para facilitar la lectura y escritura de archivos.
- */
-
 package proyecto.ordenamiento.externo;
 
 import java.io.IOException;
@@ -10,13 +6,20 @@ import java.io.File;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 
+
+/**
+ * Clase Archivos, no modela ningún tipo de dato abstracto en específico. Contiene métodos para la lectura y escritura de archivos.
+ * @author Nuñez Quintana, Luis Axel
+ * @author Zarate Garcia, Zuriel
+ * @author Rosales López, Luis André
+ */
 public class Archivos{
 
     /**
      * Lee un archivo.
      * @param path La ruta de donde se quiere leer el archivo (con el nombre del archivo y extensión añadidos).
      * @return Un String con toda la información del archivo.
-     * @throws IOException 
+     * 
      */
     
     public static String readFile(String path) throws IOException{
@@ -42,7 +45,7 @@ public class Archivos{
      * Escribe un archivo nuevo si no existe, y si existe, agrega información.
      * @param data Información que se quiere escribir.
      * @param path Ruta + nombre del archivo.extensión donde se quiere escribir la información.
-     * @throws IOException 
+     * 
      */
     
     public static void writeFile(String data, String path) throws IOException{

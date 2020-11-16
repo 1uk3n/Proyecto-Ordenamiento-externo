@@ -1,7 +1,3 @@
-/**
- * Ordena por mezcla equilibrada un archivo con alumnos de la forma: nombre(s),apellidos,n° de cuenta.
- * 
- */
 package proyecto.ordenamiento.externo;
 
 import java.io.File;
@@ -12,7 +8,10 @@ import java.io.IOException;
 import java.nio.file.Paths;
 
 /**
- * @author Zuriel Zárate García.
+ * Ordena por mezcla equilibrada un archivo con alumnos de la forma: nombre(s),apellidos,n° de cuenta.
+ * @author Nuñez Quintana, Luis Axel
+ * @author Zçarate García, Zuriel
+ * @author Rosales López, Luis André
  */
 
 public class MezclaE{

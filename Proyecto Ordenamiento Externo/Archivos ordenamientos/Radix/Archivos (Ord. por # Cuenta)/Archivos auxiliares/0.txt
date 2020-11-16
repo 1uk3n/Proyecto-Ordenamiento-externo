@@ -1,0 +1,21 @@
+
+Iteración 1
+
+Iteración 2
+
+Iteración 3
+
+Iteración 4
+Juan,Perez Gomez,303030
+
+Iteración 5
+
+Iteración 6
+Juan,Perez Gomez,303030
+
+Iteración 7
+
+Iteración 8
+Juan,Perez Gomez,303030
+
+Iteración 9

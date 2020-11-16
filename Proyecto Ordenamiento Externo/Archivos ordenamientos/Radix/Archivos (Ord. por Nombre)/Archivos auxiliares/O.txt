@@ -1,6 +1,8 @@
 
 Iteración 1
 Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
 
 Iteración 2
 
@@ -21,6 +23,8 @@ Iteración 9
 Iteración 10
 
 Iteración 11
+Jose,Mendez Rodriguez,987652 
+Jose,Mendez Rodriguez,987652 
 Jose,Mendez Rodriguez,987652 
 
 Iteración 12
