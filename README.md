@@ -28,7 +28,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/TheQuetz/Proyecto-Ordenamiento-externo">
-    <img src="images/logo.png" alt="Logo" width="100" height="100">
+    <img src="images/logo.png" alt="Logo" width="175" height="75">
   </a>
 
   <h3 align="center">Proyecto Ordenamiento Externo</h3>
@@ -60,6 +60,7 @@
 
 En el siguiente video encontrarás una guía de como utilizar este programa:
 [![Alt text](https://img.youtube.com/vi/TJDrWegDhSA/0.jpg)](https://www.youtube.com/watch?v=TJDrWegDhSA)
+
 Para detalles sobre las clases que integran este proyecto visita nuetra <a href="https://thequetz.github.io/Proyecto-Ordenamiento-externo/">Documentación</a>.
 
 <!-- CONTACT -->
