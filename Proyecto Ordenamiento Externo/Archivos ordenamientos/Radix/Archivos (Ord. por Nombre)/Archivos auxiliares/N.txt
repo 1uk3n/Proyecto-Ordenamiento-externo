@@ -17,6 +17,8 @@ Iteración 8
 
 Iteración 9
 Juan,Perez Gomez,303030
+Juan,Perez Gomez,303030
+Juan,Perez Gomez,303030
 
 Iteración 10
 

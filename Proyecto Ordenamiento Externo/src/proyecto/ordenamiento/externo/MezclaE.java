@@ -140,7 +140,7 @@ public class MezclaE{
         return listaC;
     }
 
-    public LinkedList<String> mezcla(LinkedList<String> listaA, LinkedList<String> listaB, int ordenamiento){
+    public static LinkedList<String> mezcla(LinkedList<String> listaA, LinkedList<String> listaB, int ordenamiento){
        
         LinkedList<String> listaC = new LinkedList<String>();
 
@@ -231,7 +231,7 @@ public class MezclaE{
         return lista;
     }
 
-    public void imprimirLista(LinkedList<String> lista){
+    public static void imprimirLista(LinkedList<String> lista){
         String[] elementos = new String[lista.size()];
         for(int i=0; i<lista.size(); i++){
             elementos[i] = lista.get(i);

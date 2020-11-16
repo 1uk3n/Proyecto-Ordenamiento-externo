@@ -17,10 +17,20 @@ Iteración 8
 
 Iteración 9
 Luis,Rosales Lopez,321324124
+Luis,Rosales Lopez,321324124
+Luis,Rosales Lopez,321324124
+Luis,Rosales Lopez,321324124
 Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
+Luis Axel,Nuñez Quintana,321324341
+Luis Axel,Nuñez Quintana,321324341
+Luis Axel,Nuñez Quintana,321324341
 Luis Axel,Nuñez Quintana,321324341
 
 Iteración 10
+Jose,Mendez Rodriguez,987652 
+Jose,Mendez Rodriguez,987652 
 Jose,Mendez Rodriguez,987652 
 
 Iteración 11
