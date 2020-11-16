@@ -3,8 +3,10 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * 
- * @author Zuriel Zárate García.
+ * Clase menú, no modela ningún tipo de dato abstracto en específico. Contiene un método para generar un menú.
+ * @author Nuñez Quintana, Luis Axel
+ * @author Zçarate García, Zuriel
+ * @author Rosales López, Luis André
  */
 
 public class Menu{

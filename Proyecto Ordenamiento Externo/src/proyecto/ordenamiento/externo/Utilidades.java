@@ -40,7 +40,7 @@ public class Utilidades {
      * @param nombreArchivoNuevo Nombre y extensión de la copia a crear
      * @return La copia creada
      */  
-    static File copiarArchivo(Path rutaBase, Path rutaDestino, String nombreArchivoViejo, String nombreArchivoNuevo) throws IOException {
+    public static File copiarArchivo(Path rutaBase, Path rutaDestino, String nombreArchivoViejo, String nombreArchivoNuevo) throws IOException {
         
         //Archivo copia.txt
         File copia = new File(rutaDestino.toString() + File.separatorChar + nombreArchivoNuevo);
