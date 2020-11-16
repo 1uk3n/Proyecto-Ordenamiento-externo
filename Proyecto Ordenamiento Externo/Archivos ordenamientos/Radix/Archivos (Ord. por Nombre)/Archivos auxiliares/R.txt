@@ -5,6 +5,8 @@ Iteración 2
 
 Iteración 3
 Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
 
 Iteración 4
 
@@ -19,6 +21,9 @@ Iteración 8
 Iteración 9
 
 Iteración 10
+Zuriel,Zarate Garcia,323214223
+Zuriel,Zarate Garcia,323214223
+Zuriel,Zarate Garcia,323214223
 Zuriel,Zarate Garcia,323214223
 
 Iteración 11

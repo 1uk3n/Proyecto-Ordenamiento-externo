@@ -7,8 +7,13 @@ Iteración 3
 
 Iteración 4
 Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
+Luis Alberto,Gomez Lopez,123456
 
 Iteración 5
+Luis Axel,Nuñez Quintana,321324341
+Luis Axel,Nuñez Quintana,321324341
+Luis Axel,Nuñez Quintana,321324341
 Luis Axel,Nuñez Quintana,321324341
 
 Iteración 6
@@ -17,8 +22,13 @@ Iteración 7
 
 Iteración 8
 Zuriel,Zarate Garcia,323214223
+Zuriel,Zarate Garcia,323214223
+Zuriel,Zarate Garcia,323214223
+Zuriel,Zarate Garcia,323214223
 
 Iteración 9
+Jose,Mendez Rodriguez,987652 
+Jose,Mendez Rodriguez,987652 
 Jose,Mendez Rodriguez,987652 
 
 Iteración 10

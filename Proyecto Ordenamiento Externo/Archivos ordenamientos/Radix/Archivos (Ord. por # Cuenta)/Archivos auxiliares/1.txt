@@ -1,0 +1,24 @@
+
+Iteración 1
+Luis Axel,Nuñez Quintana,321324341
+
+Iteración 2
+
+Iteración 3
+Luis,Rosales Lopez,321324124
+
+Iteración 4
+
+Iteración 5
+Zuriel,Zarate Garcia,323214223
+
+Iteración 6
+
+Iteración 7
+Luis,Rosales Lopez,321324124
+Luis Axel,Nuñez Quintana,321324341
+
+Iteración 8
+
+Iteración 9
+Luis Alberto,Gomez Lopez,123456

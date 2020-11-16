@@ -1,0 +1,9 @@
+
+#### BLOQUE ####Juan,Perez Gomez,303030|Luis,Rosales Lopez,321324124|Luis Axel,Nuñez Quintana,321324341|Zuriel,Zarate Garcia,323214223|
+
+
+#### BLOQUE ####Jose,Mendez Rodriguez,987652 |Juan,Perez Gomez,303030|Luis Alberto,Gomez Lopez,123456|Luis Axel,Nuñez Quintana,321324341|
+
+
+#### BLOQUE ####Jose,Mendez Rodriguez,987652 |Luis,Rosales Lopez,321324124|Luis Alberto,Gomez Lopez,123456|Zuriel,Zarate Garcia,323214223|
+
