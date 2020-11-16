@@ -286,14 +286,8 @@ public class MezclaE{
      */
     
     public static String mezclaEquilibrada(int ordenamiento) throws IOException {
-       
-        //Para leer el archivo. PEDIR PATH.
-        Scanner teclado = new Scanner(System.in);
         
-        System.out.println("Ingresa el nombre de tu archivo (con extensi\u00f3n: ");
-        String nombre = teclado.nextLine();
-        
-        String path = Paths.get("Archivos ordenamientos").toAbsolutePath().toString() + File.separatorChar + nombre;
+        String path = Paths.get("Archivos ordenamientos").toAbsolutePath().toString() + File.separatorChar + "original.txt";
 
         //Se ingresa la información de los alumnos a un arreglo y después a una lista ligada.
         String[] data = Archivos.readFile(path).split("\n");
