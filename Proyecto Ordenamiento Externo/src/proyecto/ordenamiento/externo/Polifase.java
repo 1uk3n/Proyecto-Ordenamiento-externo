@@ -160,8 +160,7 @@ public class Polifase {
                             if(!archivoF1.isEmpty() && !archivoF2.isEmpty()){
                                 // Se unen los bloques indicados
                                 LinkedList<String> bloquesUnidos = unirBloques(archivoF1.remove(0), archivoF2.remove(0), ordenamiento);
-                                // Se vuelve a ordenar el nuevo bloque 
-                                bloquesUnidos = radixSortSimple(bloquesUnidos, ordenamiento);
+                         
                                 // Agregando el bloque unido a la lista/archivo indivado
                                 archivoF0.add(bloquesUnidos);
                             
@@ -170,19 +169,19 @@ public class Polifase {
                                 // lista/archivo indicado.
                                 
                                 LinkedList<String> bloquesUnidos = unirBloques(archivoF1.remove(0), archivoF2.remove(0), ordenamiento);
-                                bloquesUnidos = radixSortSimple(bloquesUnidos, ordenamiento);
+                              
                                 archivoF0.add(bloquesUnidos);
                             }
                             subAlternador = 1;
                         }else{
                             if (!archivoF1.isEmpty() && !archivoF2.isEmpty()) {
                                 LinkedList<String> bloquesUnidos = unirBloques(archivoF1.remove(0), archivoF2.remove(0), ordenamiento);
-                                bloquesUnidos = radixSortSimple(bloquesUnidos, ordenamiento);
+                                
                                 archivoF3.add(bloquesUnidos);
 
                             } else {
                                 LinkedList<String> bloquesUnidos = unirBloques(archivoF1.remove(0), archivoF2.remove(0), ordenamiento);
-                                bloquesUnidos = radixSortSimple(bloquesUnidos, ordenamiento);
+                                
                                 archivoF3.add(bloquesUnidos);
                             }                           
                             subAlternador = 0;                           
