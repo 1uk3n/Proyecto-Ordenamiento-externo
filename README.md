@@ -69,7 +69,7 @@ Para detalles sobre las clases que integran este proyecto visita nuetra <a href=
 
 Axel Nuñez [LuisAxel] - axelnunez5@gmail.com
 <br />
-Zuriel Zárate [DeLionsGate] - zarategrupo137a@gmail.com
+Zuriel Zárate [delionsgate] - zarategrupo137a@gmail.com
 <br />
 Luis Rosales [TheQuetz] - theQuetz@protonmail.com
 <br />
