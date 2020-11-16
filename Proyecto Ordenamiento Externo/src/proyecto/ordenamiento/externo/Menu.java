@@ -35,6 +35,7 @@ public class Menu{
                     System.out.println("Has elegido el camino de la muerte >:v");
                     System.out.println("\nPresione una letra para continuar...");
                     System.in.read();
+                    opcion = 0;
                 }               
             }
             
